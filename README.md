@@ -16,3 +16,5 @@ To sync using quartz, just run the following command
 npx quartz sync
 ```
 >Use ```shell npx quartz sync --help``` for details on sync's usage.
+
+Quartz's sync should be configured to push and pull by default, but make sure to always sync before/after editing the vault to prevent conflicts from arising.
