@@ -8,7 +8,7 @@ npm i
 npx quartz sync
 ```
 
-After the last command, open up [Obsidian](https://obsidian.md) and create a new vault - select open a vault of an existing folder and select <some-dir>/home/content/ (content is the vault directory for notes pushed to github and also the website)
+After the last command, open up [Obsidian](https://obsidian.md) and create a new vault - select open a vault of an existing folder and select PATH-TO-HOME/home/content/ (content is the vault directory for notes pushed to github and also the website)
 
 ## syncing using quartz
 To sync using quartz, just run the following command
