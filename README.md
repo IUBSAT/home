@@ -15,3 +15,4 @@ To sync using quartz, just run the following command
 ```shell
 npx quartz sync
 ```
+>Use ```shell npx quartz sync --help``` for details on sync's usage.
