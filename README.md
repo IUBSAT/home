@@ -4,7 +4,7 @@ Run the following commands, but after the last command wait before you enter an 
 ```shell
 git clone https://github.com/IUBSAT/home.git
 cd home
-npm I
+npm i
 npx quartz sync
 ```
 
