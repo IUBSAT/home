@@ -1,20 +1,17 @@
-# Quartz v4
+# Working with Obsidian & Quartz
+## getting started
+Run the following commands, but after the last command wait before you enter an instruction
+```shell
+git clone https://github.com/IUBSAT/home.git
+cd home
+npm I
+npx quartz sync
+```
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+After the last command, open up [Obsidian](https://obsidian.md) and create a new vault - select open a vault of an existing folder and select <some-dir>/home/content/ (content is the vault directory for notes pushed to github and also the website)
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
-
-**If you are looking for Quartz v3, you can find it on the [`hugo` branch](https://github.com/jackyzha0/quartz/tree/hugo).**
-
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
-
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
-
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+## syncing using quartz
+To sync using quartz, just run the following command
+```shell
+npx quartz sync
+```
