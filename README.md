@@ -6,7 +6,6 @@ git clone https://github.com/IUBSAT/home.git
 cd home
 npm i
 npx quartz create
-npx quartz sync
 ```
 Select use an existing folder for the ```shell npx quartz create``` command, and past the path to the /content directory that is inside the /home directory.
 
