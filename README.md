@@ -5,8 +5,10 @@ Run the following commands, but after the last command wait before you enter an 
 git clone https://github.com/IUBSAT/home.git
 cd home
 npm i
+npx quartz create
 npx quartz sync
 ```
+Select use an existing folder for the ```shell npx quartz create``` command, and past the path to the /content directory that is inside the /home directory.
 
 After the last command, open up [Obsidian](https://obsidian.md) and create a new vault - select open a vault of an existing folder and select PATH-TO-HOME/home/content/ (content is the vault directory for notes pushed to github and also the website)
 
